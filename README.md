@@ -56,7 +56,7 @@ We recommend that UNICEF pay close attention to older wells and allocate more re
 Analyzing the relationship between the rainy and dry seasons and the functionality of water wells in Tanzania could lend better insight into when water wells are prone to failure. Moreover, collecting data on how frequently communities utilize wells and the population size of that community could affect well functionality. Lastly, UNICEF may want to inspect the distance between water well locations and the communities they serve to enhance safe water access in Tanzania. 
 
 # Further Inquiry 
-Please review our full analysis in [our Jupyter Notebook](./main_notebook.ipynb) or our[presentation](./presentation.pdf). For any additional questions, please contact Sarah Jack | sajack2000@gmail.com, Mackoy Staloch | mackoy.staloch@gmail.com, Juana Tavera | tvrjuana@gmail.com 
+Please review our full analysis in [our Jupyter Notebook](./main_notebook.ipynb) or our [presentation](./presentation.pdf). For any additional questions, please contact Sarah Jack | sajack2000@gmail.com, Mackoy Staloch | mackoy.staloch@gmail.com, Juana Tavera | tvrjuana@gmail.com 
 
 # Repository Structure 
 ```
