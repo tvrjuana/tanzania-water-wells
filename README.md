@@ -1,5 +1,6 @@
 # World Wide Water - Predicting Well Functionality in Tanzania for UNICEF
 
+![img](./images/image.png)
 World Wide Water analyzed thousands of water wells in Tanzania to find what attributes influence well failure the most. With our analysis, stakeholders like UNICEF, can gain better understanding about Tanzania's ongoing water crisis. 
 
 ## Organizational Objective
@@ -22,13 +23,21 @@ The dataset, tanzania_wells.csv, was is the primary data source. The dataset con
 ## Model Analysis
 ### EDA
 ### Well Age 
+![graph1](./images/old_wells.png)
+![graph2](./images/young_wells.png)
+
 The first analysis concerns the relationship between the percentage of non-functional water wells and the age of the respective water well.
 We found that older wells perform worse than wells that are younger. 
 
 ### Well Location 
+![graph3](./images/well_location.png)
+![graph4](./images/choropleth.png)
+
 The second analysis addresses the proportion of functional and non-functional water wells by location. Overall, there are several hotspots of non-functional wells. There are more non-functional wells in the southeast and central Tanzania. Ongoing political violence, terrorist activity, and border disputes are possible explanations for the concentration of non-functional wells in the southeast. Further, the cluster of non-functional wells in central Tanzania aligns with current social science theories about governmental efficacy. Fearon and Laitin (2003) show that areas with mountainous terrain are more difficult for governments to regulate. Thus, wells in this region may have less oversight. 
 
 ### Well Extraction Method 
+![graph4](./images/extraction_type.png)
+
 The third analysis finds that wells that utilize "other" or "motor pumps" for extraction method fare comparatively worse than wells that use rope pumps.
 
 # Decison Tree Model 
@@ -47,6 +56,13 @@ We recommend that UNICEF pay close attention to older wells and allocate more re
 Analyzing the relationship between the rainy and dry seasons and the functionality of water wells in Tanzania could lend better insight into when water wells are prone to failure. Moreover, collecting data on how frequently communities utilize wells and the population size of that community could affect well functionality. Lastly, UNICEF may want to inspect the distance between water well locations and the communities they serve to enhance safe water access in Tanzania. 
 
 # Further Inquiry 
-Please review our full analysis in our our < link jupyter notebook here > or < link our presentation here > . For any additional questions, please contact Sarah Jack | sajack2000@gmail.com, Mackoy Staloch | mackoy.staloch@gmail.com, Juana Tavera | tvrjuana@gmail.com 
+Please review our full analysis in [our Jupyter Notebook](./main_notebook.ipynb) or our[presentation](./presentation.pdf). For any additional questions, please contact Sarah Jack | sajack2000@gmail.com, Mackoy Staloch | mackoy.staloch@gmail.com, Juana Tavera | tvrjuana@gmail.com 
 
 # Repository Structure 
+```
+├── README.md                            <- The top-level README for reviewers of this project
+├── main_notebook.ipynb                  <- Narrative documentation of analysis and modeling in Jupyter notebook
+├── presentation.pdf                     <- PDF version of project presentation
+├── data                                 <- Both sourced externally and generated from code
+└── images                               <- Both sourced externally and generated from code
+```
