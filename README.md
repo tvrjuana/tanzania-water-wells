@@ -1,6 +1,7 @@
 # World Wide Water - Predicting Well Functionality in Tanzania for UNICEF
 
 ![img](./images/image.png)
+
 World Wide Water analyzed thousands of water wells in Tanzania to find what attributes influence well failure the most. With our analysis, stakeholders like UNICEF, can gain better understanding about Tanzania's ongoing water crisis. 
 
 ## Organizational Objective
